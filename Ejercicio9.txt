@@ -1,0 +1,19 @@
+Proceso Temperaturas
+	contador <- 0
+	total <- 0
+	Hacer
+		Leer T1
+		Leer T2
+		Si (T1 >= 5) & (T1 <= 15) Entonces
+			total <- (total + T1)
+			contador++
+		Sino 
+			Si (T2 >= 5) & (T2 <= 15) Entonces
+				total <- (total + T2)
+				contador++
+			FinSi
+		FinSi
+	Mientras (T1 != 0)
+	promedio = total/contador
+	Escribir "El promedido es ",promedio
+FinProceso
