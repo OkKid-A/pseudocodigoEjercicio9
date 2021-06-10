@@ -16,4 +16,4 @@ Proceso Temperaturas
 	Mientras (T1 != 0)
 	promedio = total/contador
 	Escribir "El promedido es ",promedio
-FinProceso
+FinProceso	
